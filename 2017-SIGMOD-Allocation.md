@@ -1,5 +1,5 @@
 ---
-layout: publications
+layout: publication
 title: "Query Centric Partitioning and Allocation for Partially Replicated Database Systems"
 author: "Tilmann Rabl, Hans-Arno Jacobsen"
 booktitle: "Proceedings of the 2017 ACM International Conference on Management of Data"
