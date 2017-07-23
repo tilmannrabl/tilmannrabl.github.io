@@ -6,3 +6,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publications
