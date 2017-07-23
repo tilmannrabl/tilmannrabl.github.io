@@ -24,3 +24,4 @@ systems while guaranteeing configurable availability."
 ---
 
 Test
+{{ sites.publications }}
