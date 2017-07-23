@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ publications.title }}</title>
+<title>{{ page.title }}</title>
 <!-- link to main stylesheet -->
 <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
@@ -15,11 +15,11 @@
     </ul>
 </nav>
 <div class="container">
-<h1>{{ publications.title }}</h1>
-<div>{{ publícations.author }}</div>
-<div>In {{ publications.booktitle }}, {{ publications.year }}</div>
+<h1>{{ page.title }}</h1>
+<div>{{ page.author }}</div>
+<div>In {{ page.booktitle }}, {{ page.year }}</div>
 <h2>Abstract</h2>
-{{ publications.abstract }}
+{{ page.abstract }}
 {{ content }}
 </div><!-- /.container -->
 <footer>
