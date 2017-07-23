@@ -5,4 +5,4 @@ markdown: kramdown
 collections:
   publications:
     output: true
-    permalink: /:collection/:year/:name
+    permalink: /:collection/:name
