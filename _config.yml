@@ -12,4 +12,4 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: publications
+      layout: publication
